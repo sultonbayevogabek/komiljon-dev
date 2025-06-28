@@ -18,7 +18,12 @@ body {
   @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-xl relative overflow-hidden shadow;
 }
 
-.main-button::before {
+.tg-button {
+  background: #24A1DE;
+  @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-xl relative overflow-hidden shadow;
+}
+
+.main-button::before, .submit-button::before, .tg-button::before {
   content: '';
   position: absolute;
   top: -50%;
